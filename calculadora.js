@@ -2,7 +2,8 @@ window.addEventListener('load', ()=>{ //Escuchamos cuando se carga el documento
 
     //Creamos dos constantes y se guardan los elementos que necesitamos darle la funcionalidad
     const display = document.querySelector('.calculator-display');
-    const keypadButtons = document.getElementsByClassName('keypad-button');
+    const keypadButtons = document.getElementsByClassName('keypad-button'); 
+    .
 
     //Creamos otra constante para convertir los botones en un array
     const keypadButtonsArray = Array.from(keypadButtons);
